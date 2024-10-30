@@ -6,11 +6,6 @@ This project implements a **Satellite Maps Conversion GAN** using a Pix2Pix appr
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 This project trains a generative model that converts aerial satellite imagery into map-style representations. The model architecture is based on a U-Net generator with a PatchGAN discriminator, designed to evaluate the realism of generated images. This approach is highly applicable to geographic information systems (GIS), urban planning, and automated map generation.
